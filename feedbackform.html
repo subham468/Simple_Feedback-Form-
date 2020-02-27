@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rating and Review Page</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<h1 class="container mt-5">Ratings & Reviews:</h1>
+	<div class="container mt-5 p-3">
+		<div class="row">
+			<span onmouseover="starmark(this)" onclick="starmark(this)" id="1one" style="font-size:40px;cursor:pointer;"
+				class="fa fa-star checked"></span>
+			<span onmouseover="starmark(this)" onclick="starmark(this)" id="2one" style="font-size:40px;cursor:pointer;"
+				class="fa fa-star "></span>
+			<span onmouseover="starmark(this)" onclick="starmark(this)" id="3one" style="font-size:40px;cursor:pointer;"
+				class="fa fa-star "></span>
+			<span onmouseover="starmark(this)" onclick="starmark(this)" id="4one" style="font-size:40px;cursor:pointer;"
+				class="fa fa-star"></span>
+			<span onmouseover="starmark(this)" onclick="starmark(this)" id="5one" style="font-size:40px;cursor:pointer;"
+				class="fa fa-star"></span>
+		</div>
+		<textarea style="margin-top:5px;" class="form-control" rows="3" id="comment"
+			placeholder="Enter your review"></textarea>
+			
+		<button onclick="result()" type="button" style="margin-top:10px;margin-left:5px;"
+			class="btn btn-lg btn-primary">Submit</button>
+	</div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

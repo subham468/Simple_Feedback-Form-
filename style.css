@@ -1,0 +1,26 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.dot {
+	height: 10px;
+	width: 10px;
+	border: 2px solid #26a541;
+	background-color: #26a541;
+	border-radius: 50%;
+	display: inline-block;
+}
+.text_size{
+	margin-top: 1px;
+	font-size: smaller;
+}
+.rating{
+	text-transform: uppercase;
+	/* cursor: pointer;
+	width: auto; */
+	color: #2874f0;
+}
+.checked {
+	color: orange;
+}
